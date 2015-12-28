@@ -69,7 +69,7 @@
                 <state vertical-scroll-proportion="0.0">
                   <caret line="66805" column="12" selection-start-line="66805" selection-start-column="12" selection-end-line="66805" selection-end-column="12" />
                   <folding>
-                    <marker date="1451296993000" expanded="true" signature="2110799:2110800" placeholder="[...]" />
+                    <marker date="1451297030000" expanded="true" signature="2110804:2110805" placeholder="[...]" />
                   </folding>
                 </state>
               </provider>
@@ -108,7 +108,7 @@
           <file leaf-file-name="TableContainer.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/App/components/TableContainer/TableContainer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7649667">
+                <state vertical-scroll-proportion="0.36807096">
                   <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
                   <folding />
                 </state>
@@ -132,11 +132,11 @@
           <file leaf-file-name="tableRows.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/App/components/tableRows.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7982262">
-                  <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+                <state vertical-scroll-proportion="0.8980044">
+                  <caret line="49" column="59" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
                   <folding>
-                    <marker date="1451296988000" expanded="true" signature="595:1285" placeholder="..." />
-                    <marker date="1451296988000" expanded="true" signature="675:739" placeholder="&lt;xml/&gt;" />
+                    <marker date="1451297025000" expanded="true" signature="595:1285" placeholder="..." />
+                    <marker date="1451297025000" expanded="true" signature="675:739" placeholder="&lt;xml/&gt;" />
                   </folding>
                 </state>
               </provider>
@@ -491,7 +491,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="1745" selection-start-line="52" selection-start-column="1745" selection-end-line="52" selection-end-column="1745" />
           <folding>
-            <marker date="1451296993000" expanded="true" signature="2110799:2110800" placeholder="[...]" />
+            <marker date="1451297030000" expanded="true" signature="2110804:2110805" placeholder="[...]" />
           </folding>
         </state>
       </provider>
@@ -541,8 +541,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
-            <marker date="1451296988000" expanded="true" signature="595:1285" placeholder="..." />
-            <marker date="1451296988000" expanded="true" signature="675:739" placeholder="&lt;xml/&gt;" />
+            <marker date="1451297025000" expanded="true" signature="595:1285" placeholder="..." />
+            <marker date="1451297025000" expanded="true" signature="675:739" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
@@ -599,7 +599,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="66805" column="12" selection-start-line="66805" selection-start-column="12" selection-end-line="66805" selection-end-column="12" />
           <folding>
-            <marker date="1451296993000" expanded="true" signature="2110799:2110800" placeholder="[...]" />
+            <marker date="1451297030000" expanded="true" signature="2110804:2110805" placeholder="[...]" />
           </folding>
         </state>
       </provider>
@@ -644,14 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/components/TableContainer/TableContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7649667">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -660,13 +652,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App/components/TableContainer/TableContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36807096">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/App/components/tableRows.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7982262">
-          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.8980044">
+          <caret line="49" column="59" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
           <folding>
-            <marker date="1451296988000" expanded="true" signature="595:1285" placeholder="..." />
-            <marker date="1451296988000" expanded="true" signature="675:739" placeholder="&lt;xml/&gt;" />
+            <marker date="1451297025000" expanded="true" signature="595:1285" placeholder="..." />
+            <marker date="1451297025000" expanded="true" signature="675:739" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>

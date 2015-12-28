@@ -66762,7 +66762,7 @@
 	                                _react2.default.createElement(
 	                                    'th',
 	                                    { 'data-field': 'name' },
-	                                    '% Change'
+	                                    '% Change (7h)'
 	                                ),
 	                                _react2.default.createElement(
 	                                    'th',
