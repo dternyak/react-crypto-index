@@ -3,7 +3,8 @@ module.exports = {
     output: {
         path: './public/scripts',
         filename: "bundle.js",
-        publicPath: '/'
+        publicPath: '/',
+        headers: { "Access-Control-Allow-Origin": "*" }
     },
     devServer: {
         inline: true,

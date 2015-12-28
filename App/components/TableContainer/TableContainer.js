@@ -16,18 +16,16 @@ class TableContainer extends React.Component {
     componentDidMount() {
         getAllCoins()
             .then((response) => {
-                response = response.data;
-                var data = [];
-                for (var i = 0; i < Object.keys(response).length; i++) {
-                    var key_object = Object.keys(response);
-                    var coin_name = key_object[i];
-                    var key = response[key_object[i]];
-                    key.name = coin_name;
-                    data.push(key)
+                var new_coins = []
+                var coins = response.data.markets.reverse()
+
+                for (var i = 0; i < 100; i++) {
+                    new_coins.push(coins[i])
                 }
 
+                console.log(new_coins);
                 this.setState({
-                    jsonobj: data
+                    jsonobj: new_coins
                 })
             })
     }

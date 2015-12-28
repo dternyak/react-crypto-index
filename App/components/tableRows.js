@@ -22,13 +22,13 @@ class TableRows extends React.Component {
                     <tr key={index}>
                         <td>{each.position}</td>
                         <td>
-                            <img src={src}/>{' '} {each.symbol.toUpperCase()}
+                            <img src={src}/>{' '} {each.symbol}
                         </td>
-                        <td>${this.removeLastThreeOfNumber(parseInt(each.market_cap.usd).toMoney())}</td>
-                        <td>{this.numberWithCommas(each.supply) + " " + each.symbol.toUpperCase()}</td>
-                        <td>${this.removeLastThreeOfNumber(parseInt(each.volume.usd).toMoney())}</td>
-                        {each.change > 0.00 ?
-                            <td style={styles.green}>{each.change}</td> : <td style={styles.red}>{each.change}</td>
+                        <td>${this.removeLastThreeOfNumber(parseInt(each.marketCap.usd).toMoney())}</td>
+                        <td>{each.availableSupply + ' ' + each.symbol}</td>
+                        <td>${each.volume24.btc}</td>
+                        {each.change7h.usd > 0.00 ?
+                            <td style={styles.green}>{each.change7h.usd}</td> : <td style={styles.red}>{each.change7h.usd}</td>
                         }
                         <td>${each.price.usd}</td>
                     </tr>
@@ -47,7 +47,7 @@ class TableRows extends React.Component {
                         <th data-field="price">Market Cap</th>
                         <th data-field="id">Supply</th>
                         <th data-field="price">Volume (24h)</th>
-                        <th data-field="name">% Change</th>
+                        <th data-field="name">% Change (7h)</th>
                         <th data-field="price">Price</th>
                     </tr>
                     </thead>
