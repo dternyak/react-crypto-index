@@ -16,7 +16,7 @@ handlers:
 
 - url: .*  # This regex directs all routes to main.app
   script: index.app
-  secure: always
+  secure: never
 
 skip_files:
 - ^(.*/)?app\.yaml
