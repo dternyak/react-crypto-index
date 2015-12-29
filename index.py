@@ -1,8 +1,9 @@
 from flask import Flask
 from main import api
-
+from flask.ext.cors import CORS
 app = Flask(__name__)
 app.register_blueprint(api)
+CORS(app)
 
 
 @app.errorhandler(404)
