@@ -1,4 +1,4 @@
-application: change-this
+application: react-crypto-index
 version: 1
 runtime: python27
 api_version: 1
@@ -9,12 +9,14 @@ handlers:
 - url: /
   static_files: public/index.html
   upload: public/index.html
-  secure: always
+  secure: never
 
 - url: /scripts
   static_dir: public/scripts
 
-
+- url: .*  # This regex directs all routes to main.app
+  script: index.app
+  secure: always
 
 skip_files:
 - ^(.*/)?app\.yaml

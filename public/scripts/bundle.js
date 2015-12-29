@@ -48677,6 +48677,7 @@
 
 	            (0, _helper.getAllCoins)().then(function (response) {
 	                var new_coins = [];
+	                console.log(response);
 	                var coins = response.data.markets.reverse();
 
 	                for (var i = 0; i < 100; i++) {
@@ -65534,7 +65535,6 @@
 	    value: true
 	});
 	exports.getAllCoins = getAllCoins;
-	exports.getCoin = getCoin;
 
 	var _axios = __webpack_require__(632);
 
@@ -65543,11 +65543,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function getAllCoins() {
-	    return _axios2.default.get('http://coinmarketcap.northpole.ro/api/v5/all.json');
-	}
-
-	function getCoin(coin) {
-	    return _axios2.default.get('https://coinmarketcap-nexuist.rhcloud.com/api/btc' + coin);
+	    return _axios2.default.get('/api/v1/get_coins');
 	}
 
 /***/ },
@@ -66698,8 +66694,8 @@
 	                    _react2.default.createElement(
 	                        'td',
 	                        null,
-	                        '$',
-	                        each.volume24.btc
+	                        _this2.removeLastThreeOfNumber(parseInt(each.volume24.btc).toMoney()) + ' ' + each.symbol,
+	                        ' '
 	                    ),
 	                    each.change7h.usd > 0.00 ? _react2.default.createElement(
 	                        'td',

@@ -26,7 +26,7 @@ class TableRows extends React.Component {
                         </td>
                         <td>${this.removeLastThreeOfNumber(parseInt(each.marketCap.usd).toMoney())}</td>
                         <td>{each.availableSupply + ' ' + each.symbol}</td>
-                        <td>${each.volume24.btc}</td>
+                        <td>{this.removeLastThreeOfNumber(parseInt(each.volume24.btc).toMoney()) + ' ' + each.symbol} </td>
                         {each.change7h.usd > 0.00 ?
                             <td style={styles.green}>{each.change7h.usd}</td> : <td style={styles.red}>{each.change7h.usd}</td>
                         }
