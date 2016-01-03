@@ -20,17 +20,17 @@ class TableRows extends React.Component {
                 var src = `https://coinmarketcap.com/static/img/coins/16x16/${each.name.toLowerCase()}.png`
                 return (
                     <tr key={index}>
-                        <td>{each.position}</td>
-                        <td>
+                        <td className="text-center">{each.position}</td>
+                        <td className="text-center">
                             <img src={src}/>{' '} {each.symbol}
                         </td>
-                        <td>${this.removeLastThreeOfNumber(parseInt(each.marketCap.usd).toMoney())}</td>
-                        <td>{each.availableSupply + ' ' + each.symbol}</td>
-                        <td>{this.removeLastThreeOfNumber(parseInt(each.volume24.btc).toMoney()) + ' ' + each.symbol} </td>
+                        <td className="text-center">${this.removeLastThreeOfNumber(parseInt(each.marketCap.usd).toMoney())}</td>
+                        <td className="text-center">{each.availableSupply + ' ' + each.symbol}</td>
+                        <td className="text-center">{this.removeLastThreeOfNumber(parseInt(each.volume24.btc).toMoney())} {' '} {'BTC'}</td>
                         {each.change7h.usd > 0.00 ?
-                            <td style={styles.green}>{each.change7h.usd}</td> : <td style={styles.red}>{each.change7h.usd}</td>
+                            <td className="text-center" style={styles.green}>{each.change7h.usd}%</td> : <td className="text-center" style={styles.red}>{each.change7h.usd}%</td>
                         }
-                        <td>${each.price.usd}</td>
+                        <td className="text-center">${each.price.usd}</td>
                     </tr>
                 )
             }
@@ -40,15 +40,15 @@ class TableRows extends React.Component {
         <div className='row center'>
             <div className="row">
                 <table className="striped responsive">
-                    <thead  style={{'textAlign': 'center'}}>
-                    <tr>
-                        <th data-field="id">Position</th>
-                        <th data-field="id">Currency</th>
-                        <th data-field="price">Market Cap</th>
-                        <th data-field="id">Supply</th>
-                        <th data-field="price">Volume (24h)</th>
-                        <th data-field="name">% Change (7h)</th>
-                        <th data-field="price">Price</th>
+                    <thead>
+                    <tr className="text-center">
+                        <th data-field="id" className="text-center">Position</th>
+                        <th data-field="id" className="text-center">Currency</th>
+                        <th data-field="price" className="text-center">Market Cap</th>
+                        <th data-field="id" className="text-center">Supply</th>
+                        <th data-field="price" className="text-center">Volume (24h)</th>
+                        <th data-field="name" className="text-center">% Change (7h)</th>
+                        <th data-field="price" className="text-center">Price</th>
                     </tr>
                     </thead>
                     <tbody>
