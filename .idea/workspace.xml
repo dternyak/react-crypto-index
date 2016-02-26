@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5602087d-ad10-416b-9068-b4d2415c0a3d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/components/RowComponent.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/components/tableRows.js" afterPath="$PROJECT_DIR$/App/components/tableRows.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/bundle.js" afterPath="$PROJECT_DIR$/public/scripts/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.yaml" afterPath="$PROJECT_DIR$/app.yaml" />
     </list>
     <ignored path="cryptoindex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -188,10 +185,10 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="tableRows.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="tableRows.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/App/components/tableRows.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.59866965">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
                   <folding>
                     <marker date="1456471177000" expanded="true" signature="595:1369" placeholder="..." />
@@ -201,11 +198,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.yaml" pinned="false" current-in-tab="false">
+          <file leaf-file-name="app.yaml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app.yaml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+                <state vertical-scroll-proportion="0.36585367">
+                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -246,9 +243,9 @@
         <option value="$PROJECT_DIR$/public/scripts/bundle.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/app.yaml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/App/components/tableRows.js" />
+        <option value="$PROJECT_DIR$/app.yaml" />
       </list>
     </option>
   </component>
@@ -756,14 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -806,12 +795,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/components/tableRows.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59866965">
+        <state vertical-scroll-proportion="0.0">
           <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
           <folding>
             <marker date="1456471177000" expanded="true" signature="595:1369" placeholder="..." />
             <marker date="1456471177000" expanded="true" signature="675:764" placeholder="&lt;xml/&gt;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36585367">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
