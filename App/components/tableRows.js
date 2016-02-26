@@ -22,7 +22,7 @@ class TableRows extends React.Component {
                     <tr key={index}>
                         <td>{each.position}</td>
                         <td>
-                            <img src={src}/>{' '} {each.symbol.toUpperCase()}
+                            <img src={src} width="25px" height="25px"/>{' '} {each.name}
                         </td>
                         <td>${this.removeLastThreeOfNumber(parseInt(each.market_cap.usd).toMoney())}</td>
                         <td>{this.numberWithCommas(each.supply) + " " + each.symbol.toUpperCase()}</td>
