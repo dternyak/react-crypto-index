@@ -15,9 +15,9 @@ class TableRows extends React.Component {
     }
 
     render() {
-        var styles = this.constructor.styles;
-        var all = this.props.jsonobj.map((each, index) => {
-                var src = `https://coinmarketcap.com/static/img/coins/16x16/${each.name.toLowerCase()}.png`
+        let styles = this.constructor.styles;
+        let all = this.props.jsonobj.map((each, index) => {
+                let src = `https://coinmarketcap.com/static/img/coins/16x16/${each.name.toLowerCase()}.png`;
                 return (
                     <tr key={index}>
                         <td>{each.rank}</td>
@@ -25,12 +25,13 @@ class TableRows extends React.Component {
                             <img src={src} width="16px" height="16px"/>{' '} {each.name}
                         </td>
                         <td>${this.removeLastThreeOfNumber(parseInt(each.market_cap_usd).toMoney())}</td>
-                        <td>{this.numberWithCommas(parseInt(each.available_supply))}</td>
+                        <td>{this.numberWithCommas(parseInt(each.available_supply)) + ' ' + each.symbol}</td>
                         <td>${this.removeLastThreeOfNumber(parseInt(each["24h_volume_usd"]).toMoney())}</td>
                         {parseFloat(each.percent_change_24h) > 0.00 ?
-                            <td style={styles.green}>{each.percent_change_24h}</td> : <td style={styles.red}>{each.percent_change_24h}</td>
+                            <td style={styles.green}>{each.percent_change_24h}</td> :
+                            <td style={styles.red}>{each.percent_change_24h}</td>
                         }
-                        <td>${parseInt(each.price_usd).toMoney()}</td>
+                        <td>${Number(parseFloat(each.price_usd))}</td>
                     </tr>
                 )
             }
